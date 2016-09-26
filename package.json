@@ -1,5 +1,5 @@
 {
-  "name": "serve-you-a-mock",
+  "name": "ServeYouAMock",
   "version": "0.0.1",
   "description": "Simple lib for HTTP server stubs",
   "main": "index.js",
