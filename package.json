@@ -1,0 +1,34 @@
+{
+  "name": "serve-you-a-mock",
+  "version": "0.0.1",
+  "description": "Simple lib for HTTP server stubs",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"mocha --recursive --compilers=babel-core/register tests\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mindriel/ServeYouAMock.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "server",
+    "mock",
+    "stub"
+  ],
+  "author": "Andrzej Janusz Jan \"Mindriel\" Rozenfeld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mindriel/ServeYouAMock/issues"
+  },
+  "homepage": "https://github.com/Mindriel/ServeYouAMock#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "mocha": "^3.0.2"
+  }
+}
